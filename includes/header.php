@@ -2,7 +2,7 @@
     //session start
     session_start();
     include 'admin/includeadmin/db_connect.php';
-	define('ROOT_URL',"http://localhost/php_project/php_it_company_project/");
+	define('ROOT_URL',"http://localhost/php_project/it_company/");
 	  $admin_name = basename($_SERVER['PHP_SELF']); 
 	  // switch condition for echo title name
 	  $slug = str_replace('/','',$admin_name);
@@ -102,7 +102,7 @@
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="<?php echo ROOT_URL?>assets/css/responsive.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link rel="icon" type="image/x-icon" href="<?php echo ROOT_URL?>assets/img/favicon-32x32.png">
+	
 </head>
 <body>
 	<!-- Start Preloader Section -->
