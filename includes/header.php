@@ -2,7 +2,7 @@
     //session start
     session_start();
     include 'admin/includeadmin/db_connect.php';
-	define('ROOT_URL',"http://localhost/php_project/it_company/");
+	define('ROOT_URL',"http://localhost/it_company/");
 	  $admin_name = basename($_SERVER['PHP_SELF']); 
 	  // switch condition for echo title name
 	  $slug = str_replace('/','',$admin_name);

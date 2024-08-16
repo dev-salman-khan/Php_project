@@ -5,7 +5,7 @@ if (!isset($_SESSION['auth'])) {
     header('location:login.php');
 }
 include('includeadmin/db_connect.php');
-define('ROOT_URL_ADMIN',"http://localhost/php_project/it_company/");
+define('ROOT_URL_ADMIN',"http://localhost/it_company/");
 $admin_name = basename($_SERVER['PHP_SELF']);
 switch ($admin_name) {
     
